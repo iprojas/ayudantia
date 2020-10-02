@@ -1,6 +1,6 @@
 body {
-  --color-bg: #faebd7;
-  --color-text: #24221f;
+  --color-bg: black;
+  --color-text: white;
   --color-link: #a5271b;
   --color-link-hover: #69140c;
   font-family: halyard-display, sans-serif;
@@ -25,6 +25,14 @@ a:focus {
   font-size: 0.9rem;
   margin: 2rem 0 1rem;
   font-weight: 700;
+  text-transform: uppercase;
+}
+
+.content__titulo {
+  font-size: 6rem;
+  margin: 0rem 0 1rem;
+  font-weight: 700;
+  line-height: 1.3;
   text-transform: uppercase;
 }
 
@@ -102,8 +110,8 @@ a:focus {
   transform-origin: top center;
 }
 .fold-center {
-  height: 50vh;
-  width: 50vw;
+  height: 20vh;
+  width: 100vw;
 }
 
 .fold {
